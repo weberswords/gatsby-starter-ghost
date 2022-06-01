@@ -1,6 +1,6 @@
 {
   "production": {
     "apiUrl": "https://websonthewebs.com",
-    "contentApiKey": contentApiKey
+    "contentApiKey": "b4adaede3a6a2aeaa790904ca8"
   }
 }
