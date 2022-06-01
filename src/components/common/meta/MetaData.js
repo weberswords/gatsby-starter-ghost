@@ -16,6 +16,8 @@ import AuthorMeta from "./AuthorMeta";
 const MetaData = ({ data, settings, title, description, image, location }) => {
     const canonical = url.resolve(config.siteUrl, location.pathname);
     const { ghostPost, ghostTag, ghostAuthor, ghostPage } = data;
+    console.log(`Settings: ${settings.allGhostSettings.edges}`);
+
     settings = settings.allGhostSettings.edges[0].node;
 
     if (ghostPost) {
