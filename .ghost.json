@@ -1,6 +1,6 @@
 {
   "production": {
-    "apiUrl": process.env.apiUrl,
-    "contentApiKey": process.env.contentApiKey
+    "apiUrl": apiUrl,
+    "contentApiKey": contentApiKey
   }
 }
