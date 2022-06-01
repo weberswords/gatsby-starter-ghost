@@ -1,5 +1,4 @@
 [build]
-  contentApiKey = process.env.contentApiKey
   command = "NODE_ENV=production gatsby build"
   publish = "public/"
 
